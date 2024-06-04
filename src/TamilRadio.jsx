@@ -208,7 +208,7 @@ const TamilRadio = ({ setAuthenticated }) => {
 
     const playStream = () => {
       setIsLoading(true);
-      audioElement.src = "https://altair.streamerr.co/stream/8014";
+      audioElement.src = "https://altair.streamerr.co/stream/8056";
       audioElement.load();
       audioElement.play().then(() => {
         setIsLoading(false);
@@ -253,7 +253,7 @@ const TamilRadio = ({ setAuthenticated }) => {
 
   const handleLiveButtonClick = () => {
     const audioElement = audioRef.current;
-    audioElement.src = "https://altair.streamerr.co/stream/8014";
+    audioElement.src = "https://altair.streamerr.co/stream/8056";
     audioElement.load();
     audioElement.play().catch(error => {
       console.error('Error attempting to play the live stream:', error);
@@ -287,16 +287,16 @@ const TamilRadio = ({ setAuthenticated }) => {
     <div>
       <Header setAuthenticated={setAuthenticated} onBack={handleBack} onLogout={handleLogout} />
       <BackgroundContainer>
-        <Logo src={`${process.env.PUBLIC_URL}/images/timexlogo.png`} alt="Logo" />
+        <Logo src={`${process.env.PUBLIC_URL}/images/jayjaylogo.png`} alt="Logo" />
         <br></br>     <br></br>     <br></br>     <br></br>
         <Container>
           <Sidebar>
             <GlobalStyle />
             <PlayerContainer>
-              <Title>TIMEX - Tamil</Title>
-              <RadioImage src="/TIMEX.png" alt="Radio" />
+              <Title>Jay Jay- Tamil</Title>
+              <RadioImage src="/JayJay.png" alt="Radio" />
               <HiddenAudio ref={audioRef}>
-                <source src="https://altair.streamerr.co/stream/8014" type="audio/mpeg" />
+                <source src="https://altair.streamerr.co/stream/8056" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </HiddenAudio>
               <Button onClick={handleLiveButtonClick}>Live</Button>

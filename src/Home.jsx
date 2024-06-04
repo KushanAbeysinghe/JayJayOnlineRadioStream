@@ -12,7 +12,7 @@ const Home = ({ setAuthenticated }) => {
     <div>
       <Header setAuthenticated={setAuthenticated} />
       <HomeContainer>
-        <Logo src={`${process.env.PUBLIC_URL}/images/timexlogo.png`} alt="Logo" />
+        <Logo src={`${process.env.PUBLIC_URL}/images/jayjaylogo.png`} alt="Logo" />
         <Content>
           <Card>
             <h2>TIMEX Radio Online Stream</h2>

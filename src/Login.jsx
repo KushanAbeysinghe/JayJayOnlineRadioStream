@@ -20,7 +20,7 @@ const Login = ({ setAuthenticated }) => {
   return (
     <div>
     <LoginContainer>
-      <Logo src={`${process.env.PUBLIC_URL}/images/timexlogo.png`} alt="Logo" />
+      <Logo src={`${process.env.PUBLIC_URL}/images/jayjaylogo.png`} alt="Logo" />
       <LoginCard>
         <h2>Login</h2>
         <FormGroup>

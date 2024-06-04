@@ -7,7 +7,7 @@ const images = [
   process.env.PUBLIC_URL + '/images/image1.jpg',
   process.env.PUBLIC_URL + '/images/image2.jpg',
   process.env.PUBLIC_URL + '/images/image3.jpg',
-  process.env.PUBLIC_URL + '/images/image4.jpg'
+  process.env.PUBLIC_URL + '/images/image4.png'
 ];
 
 const Slideshow = () => {
