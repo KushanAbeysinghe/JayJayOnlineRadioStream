@@ -109,7 +109,7 @@ const PlayerContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  color: #233c64;
+  color: #1e3990;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -171,7 +171,7 @@ const Footer = styled.div`
   color: white;
   margin-top: auto;
   padding: 10px 0;
-  background-color: #233c64;
+  background-color: #1e3990;
 
   img {
     margin-left: 10px;

@@ -15,7 +15,7 @@ const Home = ({ setAuthenticated }) => {
         <Logo src={`${process.env.PUBLIC_URL}/images/jayjaylogo.png`} alt="Logo" />
         <Content>
           <Card>
-            <h2>TIMEX Radio Online Stream</h2>
+            <h2>Jay Jay Radio Online Stream</h2>
             <ButtonGroup>
               <Button onClick={() => navigate('/sinhala-radio')}>Sinhala</Button>
               <Button onClick={() => navigate('/tamil-radio')}>Tamil</Button>
@@ -109,7 +109,7 @@ const Button = styled.button`
   width: 200px;
   height: 60px;
   font-size: 18px;
-  background-color: #233c64;
+  background-color: #1e3990;
   color: #fff;
   
   border: none;
@@ -137,7 +137,7 @@ const Footer = styled.div`
   text-align: center;
   color: white;
   padding: 10px 0;
-  background-color: #233c64;
+  background-color: #1e3990;
 
   img {
     margin-left: 10px;

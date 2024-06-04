@@ -114,7 +114,7 @@ const Input = styled.input`
 const Button = styled.button`
   width: 100%;
   padding: 10px 20px;
-  background-color: #233c64;
+  background-color: #1e3990;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -135,7 +135,7 @@ const Footer = styled.div`
   color: white;
   margin-top: auto;
   padding: 10px 0;
-  background-color: #233c64; /* Optional: Add background color for better visibility */
+  background-color: #1e3990; /* Optional: Add background color for better visibility */
 
   img {
     margin-left: 10px;

@@ -24,7 +24,7 @@ const Header = ({ setAuthenticated, onBack, onLogout }) => {
 
   return (
     <div className="header">
-      <h5>TIMEX</h5>
+      <h5>Jay Jay Lanka Group</h5>
       <div className="button-group">
         {location.pathname !== '/home' && (
           <button className=" back-button" onClick={handleBack}>Back</button>
